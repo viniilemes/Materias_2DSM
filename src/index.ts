@@ -44,3 +44,11 @@ let pessoas = [
 console.log("Ordenação com Insertion Sort:", insertionSort(pessoas));
 
 export { Pessoa, insertionSort };
+
+/*P.3.17. Construa um sistema que ordene valores em uma lista de objetos contendo os atributos 
+nome:string e idade:número. Seu sistema deve ordenar os valores primeiramente pelo nome e, 
+posteriormente, pela idade. Note que seu algoritmo de ordenação deverá operar em 2 camadas. 
+A primeira ordena pelo nome e a segunda ordena os objetos de mesmo nome mas utilizando o 
+telefone. Faça a devida adaptação no algoritmo de ordenação da bolha fornecido pelo professor. 
+
+P.3.18. Repita o problema 3.17 mas utilizando o algoritmo da inserção.
