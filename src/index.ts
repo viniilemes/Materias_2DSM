@@ -51,4 +51,7 @@ posteriormente, pela idade. Note que seu algoritmo de ordenação deverá operar
 A primeira ordena pelo nome e a segunda ordena os objetos de mesmo nome mas utilizando o 
 telefone. Faça a devida adaptação no algoritmo de ordenação da bolha fornecido pelo professor. 
 
-P.3.18. Repita o problema 3.17 mas utilizando o algoritmo da inserção.
+P.3.18. Repita o problema 3.17 mas utilizando o algoritmo da inserção.*/
+
+
+
