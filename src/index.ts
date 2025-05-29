@@ -5,28 +5,30 @@ class Pessoa {
 function insertionSort(lista: Pessoa[]): Pessoa[] {
   let n = lista.length;
 
+  // Ordenação primária: Organiza a lista com base no nome
   for (let i = 1; i < n; i++) {
-    let atual = lista[i];
+    let atual = lista[i]; // Elemento atual a ser inserido na posição correta
     let j = i - 1;
 
-    // Primeira camada: Ordenação por nome
+    // Move os elementos que têm um nome maior para a frente
     while (j >= 0 && lista[j].nome > atual.nome) {
-      lista[j + 1] = lista[j];
-      j--;
+      lista[j + 1] = lista[j]; // Desloca o elemento anterior para a frente
+      j--; // Move para o próximo elemento anterior
     }
-    lista[j + 1] = atual;
+    lista[j + 1] = atual; // Insere o elemento na posição correta
   }
 
+  // Ordenação secundária: Dentro de nomes iguais, organiza por idade
   for (let i = 1; i < n; i++) {
     let atual = lista[i];
     let j = i - 1;
 
-    // Segunda camada: Ordenação por idade dentro dos nomes iguais
+    // Move os elementos que têm a mesma categoria de nome mas idade maior
     while (j >= 0 && lista[j].nome === atual.nome && lista[j].idade > atual.idade) {
-      lista[j + 1] = lista[j];
+      lista[j + 1] = lista[j]; // Desloca o elemento anterior para a frente
       j--;
     }
-    lista[j + 1] = atual;
+    lista[j + 1] = atual; // Insere o elemento na posição correta
   }
 
   return lista;
@@ -44,6 +46,7 @@ let pessoas = [
 console.log("Ordenação com Insertion Sort:", insertionSort(pessoas));
 
 export { Pessoa, insertionSort };
+
 
 /*P.3.17. Construa um sistema que ordene valores em uma lista de objetos contendo os atributos 
 nome:string e idade:número. Seu sistema deve ordenar os valores primeiramente pelo nome e, 
