@@ -54,9 +54,16 @@ posteriormente, pela idade. Note que seu algoritmo de ordenação deverá operar
 A primeira ordena pelo nome e a segunda ordena os objetos de mesmo nome mas utilizando o 
 telefone. Faça a devida adaptação no algoritmo de ordenação da bolha fornecido pelo professor. 
 
+<<<<<<< HEAD
 P.3.18. Repita o problema 3.17 mas utilizando o algoritmo da inserção.
 
 O Algoritmo da Inserção percorre o vetor uma única vez e, para cada elemento, insere-o na posição correta em relação aos 
 elementos já visitados (que formam uma sublista ordenada). O pseudocódigo fornecido para o Algoritmo da Inserção inclui a 
 condição Enquanto (pos>0 e v[pos-1] > elemento). Esta condição verifica se o elemento v[pos-1] na sublista ordenada é "maior" 
 que o elemento atual a ser inserido, determinando a necessidade de deslocar v[pos-1] para a direita*/
+=======
+P.3.18. Repita o problema 3.17 mas utilizando o algoritmo da inserção.*/
+
+
+
+>>>>>>> 4b6b54da26e18e2972973d7f299bfe0a4e1e199b
