@@ -1,0 +1,18 @@
+let totalEleitores: number;
+let votosBrancos: number;
+let votosNulos: number;
+let votosValidos: number;
+let percentualBrancos: number;
+let percentualNulos: number;
+let percentualValidos: number;
+totalEleitores = 1000;
+votosBrancos = 100;
+votosNulos = 50;
+votosValidos = 850;
+percentualBrancos = (votosBrancos / totalEleitores) * 100;
+percentualNulos = (votosNulos / totalEleitores) * 100;
+percentualValidos = (votosValidos / totalEleitores) * 100;
+console.log("Total de Eleitores: ", totalEleitores);
+console.log("Votos Brancos: ", votosBrancos, " (", percentualBrancos.toFixed(2), "%)");
+console.log("Votos Nulos: ", votosNulos, " (", percentualNulos.toFixed(2), "%)");
+console.log("Votos Válidos: ", votosValidos, " (", percentualValidos.toFixed(2), "%)");
