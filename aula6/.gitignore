@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# build artifacts
+dist/
+build/
+*.js.map
+*.d.ts
+
+# Optional npm cache files
+.npm/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+
+# Environment variables
+.env
+.env.development
+.env.production
+.env.test
+
+# VS Code
+.vscode/
+
+# Editor files (e.g., created by some editors)
+.DS_Store
+*.swp
+*.bak
+*.swo

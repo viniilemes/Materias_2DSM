@@ -1,0 +1,25 @@
+{
+  "name": "ex_dir_est_dec",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "ex01": "npx ts-node src/exercicio01.ts",
+    "ex02": "npx ts-node src/exercicio02.ts",
+    "ex03": "npx ts-node src/exercicio03.ts",
+    "ex04": "npx ts-node src/exercicio04.ts",
+    "ex05": "npx ts-node src/exercicio05.ts",
+    "ex06": "npx ts-node src/exercicio06.ts",
+    "ex07": "npx ts-node src/exercicio07.ts",
+    "ex08": "npx ts-node src/exercicio08.ts",
+    "ex09": "npx ts-node src/exercicio09.ts",
+    "ex10": "npx ts-node src/exercicio10.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
